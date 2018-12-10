@@ -2,6 +2,9 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
+
 var About = require('About');
 var Examples = require('Examples');
 var Main = require('Main');
