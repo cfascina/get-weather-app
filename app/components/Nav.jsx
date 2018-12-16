@@ -19,9 +19,10 @@ var Nav = React.createClass({
         </div>
         <div className="top-bar-right">
           <form onSubmit={this.onSearch}>
-            <ul className="menu"></ul>
-            <li><input type="search" placeholder="SEARCH WEATHER" /></li>
-            <li><input type="submit" className="button" value="GET WEATHER" /></li>
+            <ul className="menu">
+              <li><input type="search" placeholder="SEARCH WEATHER" /></li>
+              <li><input type="submit" className="button" value="GET WEATHER" /></li>
+            </ul>
           </form>
         </div>
       </div>
@@ -30,3 +31,7 @@ var Nav = React.createClass({
 });
 
 module.exports = Nav;
+
+var old = {
+
+}
