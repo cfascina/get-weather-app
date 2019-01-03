@@ -7,6 +7,7 @@ var Main = require('Main');
 var Weather = require('Weather');
 
 require('style!css!foundation-sites/dist/foundation.min.css');
+require('style!css!applicationStyles');
 $(document).foundation();
 
 ReactDOM.render(
