@@ -1,5 +1,5 @@
-# Weather App
-This is a web weather checking application.
+# Get Weather App
+This is a web application to get weather.
 It was developed using ReactJS and consuming APIs from [OpenWeatherMap](http://openweathermap.org/).
 
 ## Installing
